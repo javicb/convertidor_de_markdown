@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# Archivos temporales
+*.tmp
+*.temp
+temp_*
+.temp/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.auth/
+
+# Documentos generados (opcional - descomentar si no quieres versionar los archivos generados)
+*.pdf
+*.docx
+
+# VS Code
+.vscode/
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Archivos de prueba temporal
+test_*.md
+prueba_*.md
+temp_*.md
